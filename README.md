@@ -2,7 +2,8 @@
 
 <h4 style="text-align:center;">By: Bryan Chica & Joseph Arias<br>CIS 3610 Web Design and Development<br>Professor: Dr. Jose Ortiz</h4>
 
-
+Site Page:
+https://chica-94.github.io/cis3610-Project/
 
 
 **Purpose:** The purpose of the site is to provide individuals and organizations with trusted tools, guides, and practices for improving digital privacy and cybersecurity. It aims to equip users with essential strategies to protect personal data, secure online accounts, prevent cyber threats, and report cybercrime effectively, fostering a safer digital environment. 
