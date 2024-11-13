@@ -1,23 +1,122 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
 }
-.hero-banner {
-    background: url('hero-background.jpg') no-repeat center center/cover;
-    color: #fff;
+
+
+canvas{ 
+    display: block; 
+    vertical-align: bottom; 
+} 
+
+/* ---- particles.js container ---- */ 
+#particles-js { 
+    position: relative; 
+    width: 100vw; 
+    height: 60vh; 
+    background-color: #b61924; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
     text-align: center;
-    padding: 100px 20px;
-}
-.cta-button {
-    background: #007bff;
     color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 100px 20px;
+    justify-content: center;
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+#particles-js h2 {
+    font-size: 5em;
+}
+
+#particles-js p {
+    font-size: 3em;
+}
+
+
+.header {
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+    text-align: center;
+    color:#FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    .site-title {
+      font-size: 50px;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+      @media only screen and (min-width:$cut){
+        margin: 0;
+        font-size: 76px;
+      }
+    }
+    .site-description {
+      font-size: 20px;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+      margin-top: 10px;
+      @media only screen and (min-width:$cut){
+        font-size: 34px;
+      }
+    }
+  }
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+
+.button {
+    font-family: "Rubik Dirt", system-ui;
+}
+
+li {
+    text-align: left;
+}
+
+.key {
+    color: red;
+    font-weight: bolder;
+}
+
+.list {
+    text-align: left;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+
+.custom-popover {
+    --bs-popover-max-width: 400px;
+    --bs-popover-border-color: var(--bs-red);
+    --bs-popover-header-bg: var(--bs-red);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+  }
+
+  
