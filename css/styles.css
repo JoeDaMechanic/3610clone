@@ -1,10 +1,28 @@
 body {
-    font-family: "Pridi", serif;
-    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
     font-style: normal;
     line-height: 1.6;
+    font-size: 1rem;
+
 }
 
+.section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2.25rem;
+    color: #FFF;
+    border-radius: 25px;
+    background: #000000;
+    display:inline-block;
+    padding: 15px 150px;
+    width: 900px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  width: fit-content;
+}
 
 canvas{ 
     display: block; 
@@ -89,11 +107,21 @@ canvas{
 
 li {
     text-align: left;
+    font-weight: 300;
+    font-size: larger;
+    padding: 0px 10px;
 }
 
 .key {
     color: red;
     font-weight: bolder;
+}
+
+.text-center {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 .list {
