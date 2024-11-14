@@ -16,6 +16,7 @@ body {
   background: #000000;
   padding: 15px 30px; /* Adjust padding for smaller screens */
   margin: 0 auto; 
+  margin-bottom: 20px;
   display: inline-block; 
   max-width: 100%;
 }
